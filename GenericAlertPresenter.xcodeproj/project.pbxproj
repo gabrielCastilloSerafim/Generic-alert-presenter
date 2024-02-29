@@ -13,6 +13,9 @@
 		53096C172B8F9F2F00C9832B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53096C152B8F9F2F00C9832B /* Main.storyboard */; };
 		53096C192B8F9F3200C9832B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53096C182B8F9F3200C9832B /* Assets.xcassets */; };
 		53096C1C2B8F9F3200C9832B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53096C1A2B8F9F3200C9832B /* LaunchScreen.storyboard */; };
+		53096C252B8F9F5C00C9832B /* CRKAlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53096C242B8F9F5C00C9832B /* CRKAlertPresenter.swift */; };
+		53096C272B8F9F7800C9832B /* CRKAlertPresenter+Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53096C262B8F9F7800C9832B /* CRKAlertPresenter+Entities.swift */; };
+		53096C292B8F9F8B00C9832B /* CRKAlertPresenter+AlertsRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53096C282B8F9F8B00C9832B /* CRKAlertPresenter+AlertsRepo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		53096C182B8F9F3200C9832B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53096C1B2B8F9F3200C9832B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53096C1D2B8F9F3200C9832B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53096C242B8F9F5C00C9832B /* CRKAlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRKAlertPresenter.swift; sourceTree = "<group>"; };
+		53096C262B8F9F7800C9832B /* CRKAlertPresenter+Entities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CRKAlertPresenter+Entities.swift"; sourceTree = "<group>"; };
+		53096C282B8F9F8B00C9832B /* CRKAlertPresenter+AlertsRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CRKAlertPresenter+AlertsRepo.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +65,23 @@
 				53096C0F2B8F9F2F00C9832B /* AppDelegate.swift */,
 				53096C112B8F9F2F00C9832B /* SceneDelegate.swift */,
 				53096C132B8F9F2F00C9832B /* ViewController.swift */,
+				53096C232B8F9F4600C9832B /* CRKAlertPresenter */,
 				53096C152B8F9F2F00C9832B /* Main.storyboard */,
 				53096C182B8F9F3200C9832B /* Assets.xcassets */,
 				53096C1A2B8F9F3200C9832B /* LaunchScreen.storyboard */,
 				53096C1D2B8F9F3200C9832B /* Info.plist */,
 			);
 			path = GenericAlertPresenter;
+			sourceTree = "<group>";
+		};
+		53096C232B8F9F4600C9832B /* CRKAlertPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				53096C242B8F9F5C00C9832B /* CRKAlertPresenter.swift */,
+				53096C262B8F9F7800C9832B /* CRKAlertPresenter+Entities.swift */,
+				53096C282B8F9F8B00C9832B /* CRKAlertPresenter+AlertsRepo.swift */,
+			);
+			path = CRKAlertPresenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				53096C142B8F9F2F00C9832B /* ViewController.swift in Sources */,
+				53096C292B8F9F8B00C9832B /* CRKAlertPresenter+AlertsRepo.swift in Sources */,
 				53096C102B8F9F2F00C9832B /* AppDelegate.swift in Sources */,
+				53096C252B8F9F5C00C9832B /* CRKAlertPresenter.swift in Sources */,
+				53096C272B8F9F7800C9832B /* CRKAlertPresenter+Entities.swift in Sources */,
 				53096C122B8F9F2F00C9832B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
